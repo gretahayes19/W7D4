@@ -418,3 +418,261 @@ Started GET "/assets/application.self-c17c66a22f3822902634f2fab21e2d3cd6293c58d3
 Started GET "/assets/application.self-c17c66a22f3822902634f2fab21e2d3cd6293c58d3c901bd2fbf9d0235f9626a.css?body=1&livereload=1613071396641&livereload=1613070782514" for ::1 at 2021-02-11 14:23:16 -0500
 Started GET "/assets/application.self-c17c66a22f3822902634f2fab21e2d3cd6293c58d3c901bd2fbf9d0235f9626a.css?body=1&livereload=1613071402399&livereload=1613070782514" for ::1 at 2021-02-11 14:23:22 -0500
 Started GET "/assets/application.self-c17c66a22f3822902634f2fab21e2d3cd6293c58d3c901bd2fbf9d0235f9626a.css?body=1&livereload=1613071402400&livereload=1613070782514" for ::1 at 2021-02-11 14:23:22 -0500
+Started GET "/" for ::1 at 2021-02-11 14:36:48 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/chrayshawn/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.2ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 261ms (ActiveRecord: 0.0ms)
+
+
+
+Sass::SyntaxError - Invalid CSS after "	color": expected ";", was ": #fff":
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3988762697062196246_70334217684500'
+
+Started POST "/__better_errors/9ec0747f45a84b0a/variables" for ::1 at 2021-02-11 14:36:49 -0500
+Started GET "/" for ::1 at 2021-02-11 14:37:21 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (1.0ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.5ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 418ms (Views: 411.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/components/modal.self-52188644dbb47def5ee35ae02e69eb567ca9b664472357a8a5789dd39032a265.js?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/assets/components/sidebar.self-2a1277f850a6fa21e1a974ef5152f177ac05516477d5081d593bb137b3d6808b.js?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/assets/application.self-f571b9db02bf4ed04c38a6a29072ac382f7d4f47db1fab9817aeadb0d8665235.js?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2021-02-11 14:37:22 -0500
+Started GET "/" for ::1 at 2021-02-11 14:38:31 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.8ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 93ms (Views: 87.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-11 14:38:41 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.4ms)
+  Rendered shared/_masthead.html.erb (0.4ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.6ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (34.4ms)
+Completed 200 OK in 84ms (Views: 80.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-02-11 14:38:47 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.2ms)
+  Rendered shared/_masthead.html.erb (0.2ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.2ms)
+  Rendered static_pages/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 36ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072438044" for ::1 at 2021-02-11 14:40:38 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072438039" for ::1 at 2021-02-11 14:40:38 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072444361" for ::1 at 2021-02-11 14:40:44 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072444363" for ::1 at 2021-02-11 14:40:44 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072452404" for ::1 at 2021-02-11 14:40:52 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072452406" for ::1 at 2021-02-11 14:40:52 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072464620" for ::1 at 2021-02-11 14:41:04 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072464623" for ::1 at 2021-02-11 14:41:04 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072473403" for ::1 at 2021-02-11 14:41:13 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072473405" for ::1 at 2021-02-11 14:41:13 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072502817" for ::1 at 2021-02-11 14:41:42 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072502811" for ::1 at 2021-02-11 14:41:42 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072516822" for ::1 at 2021-02-11 14:41:56 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072516827" for ::1 at 2021-02-11 14:41:56 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072527007" for ::1 at 2021-02-11 14:42:07 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072527020" for ::1 at 2021-02-11 14:42:07 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072528031" for ::1 at 2021-02-11 14:42:08 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072528032" for ::1 at 2021-02-11 14:42:08 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072530922" for ::1 at 2021-02-11 14:42:10 -0500
+Started GET "/assets/application.self-178685223b2650bcf3433ab2da7d27c8146e1c02e9c2063cd9069d468d8f3c76.css?body=1&livereload=1613072530923" for ::1 at 2021-02-11 14:42:10 -0500
+Started GET "/" for ::1 at 2021-02-11 14:42:14 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.4ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 59ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1" for ::1 at 2021-02-11 14:42:14 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072594765" for ::1 at 2021-02-11 14:43:14 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072594768" for ::1 at 2021-02-11 14:43:14 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072616615" for ::1 at 2021-02-11 14:43:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072616617" for ::1 at 2021-02-11 14:43:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072621330" for ::1 at 2021-02-11 14:43:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072621333" for ::1 at 2021-02-11 14:43:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072624754" for ::1 at 2021-02-11 14:43:44 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072624757" for ::1 at 2021-02-11 14:43:44 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072644226" for ::1 at 2021-02-11 14:44:04 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072644228" for ::1 at 2021-02-11 14:44:04 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072650366" for ::1 at 2021-02-11 14:44:10 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072650369" for ::1 at 2021-02-11 14:44:10 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072652041" for ::1 at 2021-02-11 14:44:12 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072652043" for ::1 at 2021-02-11 14:44:12 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072669283" for ::1 at 2021-02-11 14:44:29 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072669287" for ::1 at 2021-02-11 14:44:29 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072671795" for ::1 at 2021-02-11 14:44:31 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072671798" for ::1 at 2021-02-11 14:44:31 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072674027" for ::1 at 2021-02-11 14:44:34 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072674029" for ::1 at 2021-02-11 14:44:34 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072681865" for ::1 at 2021-02-11 14:44:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072681867" for ::1 at 2021-02-11 14:44:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072684923" for ::1 at 2021-02-11 14:44:44 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072684925" for ::1 at 2021-02-11 14:44:44 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072694637" for ::1 at 2021-02-11 14:44:54 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072694638" for ::1 at 2021-02-11 14:44:54 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072700505" for ::1 at 2021-02-11 14:45:00 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072700507" for ::1 at 2021-02-11 14:45:00 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072820063" for ::1 at 2021-02-11 14:47:00 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072820074" for ::1 at 2021-02-11 14:47:00 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072831647" for ::1 at 2021-02-11 14:47:11 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072831651" for ::1 at 2021-02-11 14:47:11 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072839020" for ::1 at 2021-02-11 14:47:19 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072839022" for ::1 at 2021-02-11 14:47:19 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072847901" for ::1 at 2021-02-11 14:47:27 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072847903" for ::1 at 2021-02-11 14:47:27 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072853510" for ::1 at 2021-02-11 14:47:33 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072853528" for ::1 at 2021-02-11 14:47:33 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072865379" for ::1 at 2021-02-11 14:47:45 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072865383" for ::1 at 2021-02-11 14:47:45 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072886051" for ::1 at 2021-02-11 14:48:06 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072886046" for ::1 at 2021-02-11 14:48:06 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072889689" for ::1 at 2021-02-11 14:48:09 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072889694" for ::1 at 2021-02-11 14:48:09 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072896884" for ::1 at 2021-02-11 14:48:16 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072896888" for ::1 at 2021-02-11 14:48:16 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072906780" for ::1 at 2021-02-11 14:48:26 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072906782" for ::1 at 2021-02-11 14:48:26 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072913026" for ::1 at 2021-02-11 14:48:33 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072913028" for ::1 at 2021-02-11 14:48:33 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072919101" for ::1 at 2021-02-11 14:48:39 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072919103" for ::1 at 2021-02-11 14:48:39 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072923102" for ::1 at 2021-02-11 14:48:43 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072923104" for ::1 at 2021-02-11 14:48:43 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072931801" for ::1 at 2021-02-11 14:48:51 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072931825" for ::1 at 2021-02-11 14:48:51 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072960835" for ::1 at 2021-02-11 14:49:20 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072960836" for ::1 at 2021-02-11 14:49:20 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072962439" for ::1 at 2021-02-11 14:49:22 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072962441" for ::1 at 2021-02-11 14:49:22 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072963934" for ::1 at 2021-02-11 14:49:23 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072963936" for ::1 at 2021-02-11 14:49:23 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072991765" for ::1 at 2021-02-11 14:49:51 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072991769" for ::1 at 2021-02-11 14:49:51 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072993914" for ::1 at 2021-02-11 14:49:53 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072993920" for ::1 at 2021-02-11 14:49:53 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072997084" for ::1 at 2021-02-11 14:49:57 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072997086" for ::1 at 2021-02-11 14:49:57 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072999507" for ::1 at 2021-02-11 14:49:59 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613072999509" for ::1 at 2021-02-11 14:49:59 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073001650" for ::1 at 2021-02-11 14:50:01 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073001652" for ::1 at 2021-02-11 14:50:01 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073003136" for ::1 at 2021-02-11 14:50:03 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073003139" for ::1 at 2021-02-11 14:50:03 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073005741" for ::1 at 2021-02-11 14:50:05 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073005744" for ::1 at 2021-02-11 14:50:05 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073008737" for ::1 at 2021-02-11 14:50:08 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073008740" for ::1 at 2021-02-11 14:50:08 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073024491" for ::1 at 2021-02-11 14:50:24 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073024494" for ::1 at 2021-02-11 14:50:24 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073027370" for ::1 at 2021-02-11 14:50:27 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073027373" for ::1 at 2021-02-11 14:50:27 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073030917" for ::1 at 2021-02-11 14:50:30 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073030919" for ::1 at 2021-02-11 14:50:30 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073036902" for ::1 at 2021-02-11 14:50:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073036904" for ::1 at 2021-02-11 14:50:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073041088" for ::1 at 2021-02-11 14:50:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073041089" for ::1 at 2021-02-11 14:50:41 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073043774" for ::1 at 2021-02-11 14:50:43 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073043776" for ::1 at 2021-02-11 14:50:43 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073052376" for ::1 at 2021-02-11 14:50:52 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073052378" for ::1 at 2021-02-11 14:50:52 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073082965" for ::1 at 2021-02-11 14:51:22 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073082962" for ::1 at 2021-02-11 14:51:22 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073085017" for ::1 at 2021-02-11 14:51:25 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073085020" for ::1 at 2021-02-11 14:51:25 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073092101" for ::1 at 2021-02-11 14:51:32 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073092105" for ::1 at 2021-02-11 14:51:32 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073096556" for ::1 at 2021-02-11 14:51:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073096558" for ::1 at 2021-02-11 14:51:36 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073194828" for ::1 at 2021-02-11 14:53:14 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073194825" for ::1 at 2021-02-11 14:53:14 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073196219" for ::1 at 2021-02-11 14:53:16 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073196221" for ::1 at 2021-02-11 14:53:16 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073200220" for ::1 at 2021-02-11 14:53:20 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073200232" for ::1 at 2021-02-11 14:53:20 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073206238" for ::1 at 2021-02-11 14:53:26 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073206240" for ::1 at 2021-02-11 14:53:26 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073209768" for ::1 at 2021-02-11 14:53:29 -0500
+Started GET "/assets/application.self-2df83b2e101cf78e29a630c9af99d0a0a93d158f5b5994792d8ea9b9c1cfea59.css?body=1&livereload=1613073209771" for ::1 at 2021-02-11 14:53:29 -0500
+Started GET "/" for ::1 at 2021-02-11 14:53:31 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_main_nav.html.erb (0.3ms)
+  Rendered shared/_masthead.html.erb (0.8ms)
+  Rendered shared/_sections_nav.html.erb (1.0ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.3ms)
+  Rendered static_pages/index.html.erb within layouts/application (18.8ms)
+Completed 200 OK in 59ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1" for ::1 at 2021-02-11 14:53:31 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073230002" for ::1 at 2021-02-11 14:53:50 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073230004" for ::1 at 2021-02-11 14:53:50 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073241577" for ::1 at 2021-02-11 14:54:01 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073241579" for ::1 at 2021-02-11 14:54:01 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073245030" for ::1 at 2021-02-11 14:54:05 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073245031" for ::1 at 2021-02-11 14:54:05 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073252535" for ::1 at 2021-02-11 14:54:12 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073252537" for ::1 at 2021-02-11 14:54:12 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073254875" for ::1 at 2021-02-11 14:54:14 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073254877" for ::1 at 2021-02-11 14:54:14 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073261905" for ::1 at 2021-02-11 14:54:21 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073261910" for ::1 at 2021-02-11 14:54:21 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073266950" for ::1 at 2021-02-11 14:54:26 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073266953" for ::1 at 2021-02-11 14:54:26 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073305867" for ::1 at 2021-02-11 14:55:05 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073305872" for ::1 at 2021-02-11 14:55:05 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073319048" for ::1 at 2021-02-11 14:55:19 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073319051" for ::1 at 2021-02-11 14:55:19 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073325136" for ::1 at 2021-02-11 14:55:25 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073325137" for ::1 at 2021-02-11 14:55:25 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073326262" for ::1 at 2021-02-11 14:55:26 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073326264" for ::1 at 2021-02-11 14:55:26 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073344186" for ::1 at 2021-02-11 14:55:44 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073344188" for ::1 at 2021-02-11 14:55:44 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073348220" for ::1 at 2021-02-11 14:55:48 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073348222" for ::1 at 2021-02-11 14:55:48 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073375768" for ::1 at 2021-02-11 14:56:15 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073375765" for ::1 at 2021-02-11 14:56:15 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073389845" for ::1 at 2021-02-11 14:56:29 -0500
+Started GET "/assets/application.self-6e56a643e1e61d9f686f3d0d9da0a5dc7d52015bbaa94914940a3ed09878db0a.css?body=1&livereload=1613073389848" for ::1 at 2021-02-11 14:56:29 -0500
