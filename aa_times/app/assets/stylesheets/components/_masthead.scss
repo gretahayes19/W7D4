@@ -4,6 +4,7 @@
 	align-items: center;
 	border-bottom: 2px solid black;
 	position: relative;
+	border-top: 1px solid $light-gray;
 }
 
 .language-nav {
@@ -24,10 +25,20 @@
 		color: $dark-gray;
 	}
 
+	li:first-of-type {
+		a {
+			font-weight: 800;
+		}
+	}
+
 	ul {
 		display: flex;
 		// padding: 5px;
 	}
+}
+
+.language-nav li:hover {
+	text-decoration: underline;
 }
 
 .logo {
@@ -71,5 +82,9 @@
 
 	strong {
 		color: green;
+	}
+
+	a:hover {
+		text-decoration: underline;
 	}
 }
