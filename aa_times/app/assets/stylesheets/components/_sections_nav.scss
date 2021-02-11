@@ -1,0 +1,23 @@
+.sectionnav {
+	display: flex;
+    flex-wrap: wrap;
+	align-items: center;
+	border-bottom: 1px solid $light-gray;
+	position: relative;
+    justify-content: center;
+    font-family: $sans-serif;
+
+}
+
+.sectionnav li {
+    padding: 8px
+}
+
+.sectionnav a:hover {
+	background-color: $lightest-gray;
+}
+
+.sectionnav li.all-link:hover {
+    text-decoration: underline; 
+    background-color: #fff;
+}
