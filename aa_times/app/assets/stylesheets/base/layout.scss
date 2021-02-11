@@ -6,26 +6,29 @@ html {
 }
 
 body {
-	// ...
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
-
+ 
 button {
-	// background-color:
-	// border-color:
-	// color:
-	// font-weight:
-	// padding:
-	// border-radius:
-	// transition:
-	// font-family:
-	// text-transform:
-	// font-size:
-	// text-align:
+	background-color: #6288A5;
+	border-color: #fff
+	color: #fff
+	font-weight: 500;
+	padding: 8px;
+	border-radius: 3px;
+	transition: background-color 0.3s;
+	font-family: 'nyt-franklin', Helvetica, sans-serif;
+	text-transform: capitalize;
+	font-size: 14px;
+	text-align: center;
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color:#0e3350;
+	border-color:#02101b;
 }
 
 /*
