@@ -2207,3 +2207,35 @@ Started GET "/assets/application.self-307293831efb583431ff667bfd773960c25a43dba8
 Started GET "/assets/application.self-307293831efb583431ff667bfd773960c25a43dba88665bf6172add0d5b011ab.css?body=1&livereload=1613158011065&livereload=1613157006119&livereload=1613157007230&livereload=1613157193074&livereload=1613157222219&livereload=1613157768886&livereload=1613157936297&livereload=1613158001995" for ::1 at 2021-02-12 14:26:51 -0500
 Started GET "/assets/application.self-307293831efb583431ff667bfd773960c25a43dba88665bf6172add0d5b011ab.css?body=1&livereload=1613158028945&livereload=1613157006119&livereload=1613157007230&livereload=1613157193074&livereload=1613157222219&livereload=1613157768886&livereload=1613157936297&livereload=1613158001995" for ::1 at 2021-02-12 14:27:08 -0500
 Started GET "/assets/application.self-307293831efb583431ff667bfd773960c25a43dba88665bf6172add0d5b011ab.css?body=1&livereload=1613158028947&livereload=1613157006119&livereload=1613157007230&livereload=1613157193074&livereload=1613157222219&livereload=1613157768886&livereload=1613157936297&livereload=1613158001995" for ::1 at 2021-02-12 14:27:08 -0500
+Started GET "/" for ::1 at 2021-02-12 15:58:09 -0500
+DEPRECATION WARNING: ActiveRecord::Base.raise_in_transactional_callbacks= is deprecated, has no effect and will be removed without replacement. (called from block (3 levels) in <class:Railtie> at /Users/chrayshawn/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.0/gems/activerecord-5.0.7.2/lib/active_record/railtie.rb:113)
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.2ms)
+  Rendered shared/_main_nav.html.erb (3.6ms)
+  Rendered shared/_masthead.html.erb (0.3ms)
+  Rendered shared/_sections_nav.html.erb (0.3ms)
+  Rendered shared/_search_modal.html.erb (0.3ms)
+  Rendered shared/_main_content.html.erb (0.4ms)
+  Rendered static_pages/index.html.erb within layouts/application (23.6ms)
+Completed 200 OK in 539ms (Views: 535.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4a61052fd926885e3b38f409ab45843a4201dd599f2f5231f2983776eae00dc.css?body=1" for ::1 at 2021-02-12 15:58:10 -0500
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2021-02-12 15:58:10 -0500
+Started GET "/assets/new_office.jpg" for ::1 at 2021-02-12 15:58:10 -0500
+Started GET "/" for ::1 at 2021-02-12 16:17:51 -0500
+Processing by StaticPagesController#index as HTML
+  Rendering static_pages/index.html.erb within layouts/application
+  Rendered shared/_gear_dropdown.html.erb (0.3ms)
+  Rendered shared/_main_nav.html.erb (4.9ms)
+  Rendered shared/_masthead.html.erb (0.5ms)
+  Rendered shared/_sections_nav.html.erb (0.5ms)
+  Rendered shared/_search_modal.html.erb (0.4ms)
+  Rendered shared/_main_content.html.erb (0.6ms)
+  Rendered static_pages/index.html.erb within layouts/application (29.3ms)
+Completed 200 OK in 100ms (Views: 89.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/AA_Times_Logo.png" for ::1 at 2021-02-12 16:17:51 -0500
+Started GET "/assets/new_office.jpg" for ::1 at 2021-02-12 16:17:51 -0500
